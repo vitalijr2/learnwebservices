@@ -30,6 +30,8 @@ Run it by command
 ```
 ![Run](run.png)
 
+If you want to trace SOAP conversation - use `./traceHello` instead.
+
 [learnwebservices]: http://learnwebservices.com
 
 [local-wsdl]: wsdl/hello.wsdl

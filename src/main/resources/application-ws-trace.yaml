@@ -1,0 +1,3 @@
+logging:
+  level:
+    com.sun.xml.ws.transport.http.client.HttpTransportPipe: TRACE
