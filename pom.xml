@@ -46,16 +46,6 @@
       <groupId>org.springframework.boot</groupId>
     </dependency>
     <dependency>
-      <artifactId>spring-boot-starter-web-services</artifactId>
-      <exclusions>
-        <exclusion>
-          <artifactId>spring-boot-starter-tomcat</artifactId>
-          <groupId>org.springframework.boot</groupId>
-        </exclusion>
-      </exclusions>
-      <groupId>org.springframework.boot</groupId>
-    </dependency>
-    <dependency>
       <!--
         Upgrade to eliminate transitive vulnerable dependency maven:org.yaml:snakeyaml:1.33
         CVE-2022-41854 6.5 Out-of-bounds Write vulnerability with medium severity found
