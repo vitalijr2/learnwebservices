@@ -1,0 +1,3 @@
+#!/bin/sh
+
+java -jar target/hello-soap-world-1.0.0-SNAPSHOT.jar $@
