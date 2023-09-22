@@ -1,3 +1,6 @@
 spring:
   banner:
     location: banner.txt
+
+hello-client:
+  user-agent: @project.name@/@project.version@ @project.url@

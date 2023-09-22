@@ -23,6 +23,14 @@
         <version>4.0.1</version>
       </plugin>
       <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <configuration>
+          <propertiesEncoding>ISO-8859-1</propertiesEncoding>
+        </configuration>
+        <groupId>org.apache.maven.plugins</groupId>
+        <version>3.3.1</version>
+      </plugin>
+      <plugin>
         <artifactId>maven-jar-plugin</artifactId>
         <configuration>
           <archive>
@@ -39,6 +47,12 @@
         <groupId>org.springframework.boot</groupId>
       </plugin>
     </plugins>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>true</filtering>
+      </resource>
+    </resources>
   </build>
   <dependencies>
     <dependency>
@@ -82,5 +96,6 @@
     <revision>1.0.0</revision>
     <sha1/>
   </properties>
+  <url>https://github.com/vitalijr2/hello-soap-world</url>
   <version>${revision}${changelist}${sha1}</version>
 </project>
