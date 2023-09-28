@@ -104,7 +104,7 @@
   <properties>
     <changelist>-SNAPSHOT</changelist>
     <java.version>17</java.version>
-    <revision>1.0.0</revision>
+    <revision>1.1.0</revision>
     <sha1/>
   </properties>
   <url>https://github.com/vitalijr2/hello-soap-world</url>
