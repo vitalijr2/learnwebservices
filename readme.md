@@ -30,7 +30,10 @@ Run it by command
 ```
 ![Run](run.png)
 
-If you want to trace SOAP conversation - use `./traceHello` instead.
+If you want to trace SOAP conversation - use `traceHello` instead.
+```bash
+./traceHello Baby
+```
 ![Trace](trace.png)
 
 Run the web application
