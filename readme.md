@@ -33,6 +33,13 @@ Run it by command
 If you want to trace SOAP conversation - use `./traceHello` instead.
 ![Trace](trace.png)
 
+Run the web application
+
+```bash
+./runWeb
+```
+![Web](web.png)
+
 [learnwebservices]: http://learnwebservices.com
 
 [local-wsdl]: wsdl/hello.wsdl

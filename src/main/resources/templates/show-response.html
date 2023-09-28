@@ -1,0 +1,27 @@
+<!doctype html>
+<html th:lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Hello SOAP world</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="/hello-style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header class="title">
+  <h1>Hello SOAP world</h1>
+</header>
+<section class="main">
+  <article class="output">
+    <p th:text="${helloResponse.getMessage()}"/>
+  </article>
+  <article class="input">
+    <form action="/send" class="name-form">
+      <div>
+        <label for="name" class="input-label">Whom greeting do you want to say?</label>
+        <input name="name" id="name" class="input-name" placeholder="John or Jane"/>
+      </div>
+    </form>
+  </article>
+</section>
+</body>
+</html>

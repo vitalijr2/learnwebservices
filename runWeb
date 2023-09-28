@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo .
+echo Open http://localhost:8080/ in a browser
+echo .
+java -jar target/hello-soap-world-1.0.0-SNAPSHOT.jar

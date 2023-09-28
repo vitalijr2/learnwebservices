@@ -1,3 +1,7 @@
+spring:
+  main:
+    web-application-type: none
+
 logging:
   level:
     com.sun.xml.ws.transport.http.client.HttpTransportPipe: TRACE
